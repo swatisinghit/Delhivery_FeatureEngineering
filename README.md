@@ -31,14 +31,20 @@ osrm_distance – An open-source routing engine which computes the shortest path
 factor – Unknown field
 segment_actual_time – This is a segment time. Time taken by the subset of the package delivery
 segment_osrm_time – This is the OSRM segment time. Time taken by the subset of the package delivery
+segment_osrm_distance – This is the OSRM distance. Distance covered by subset of the package delivery
+segment_factor – Unknown field
 
 ## Concept Used:
 
-Feature Creation
-Relationship between Features
-Column Normalization /Column Standardization
-Handling categorical values
-Missing values - Outlier treatment / Types of outliers
+-Feature Creation
+
+-Relationship between Features
+
+-Column Normalization /Column Standardization
+
+-Handling categorical values
+
+-Missing values - Outlier treatment / Types of outliers
 
 ## Methodology:
 1. Basic data cleaning and exploration:
@@ -141,7 +147,3 @@ From state point of view, we have heavy traffic in Maharastra followed by Karnat
 
 ---
 
-
-
-segment_osrm_distance – This is the OSRM distance. Distance covered by subset of the package delivery
-segment_factor – Unknown field
